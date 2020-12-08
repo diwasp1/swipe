@@ -1,23 +1,17 @@
-import firebase from "firebase";
+import  firebase from "firebase";
 
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBDXq54lmSA1jj9CqAG5rwfau0YTtoPIGs",
-  authDomain: "swipe-20f8f.firebaseapp.com",
-  projectId: "swipe-20f8f",
-  storageBucket: "swipe-20f8f.appspot.com",
-  messagingSenderId: "453160163882",
-  appId: "1:453160163882:web:2ab028fd7f3d6be1b74153",
-  measurementId: "G-41Y0MJKKL2",
+  apiKey: "AIzaSyD7Nh8rSyuwcx0k3uCZu1xkxxxdkrzSRpY",
+  authDomain: "swipe-20116.firebaseapp.com",
+  projectId: "swipe-20116",
+  storageBucket: "swipe-20116.appspot.com",
+  messagingSenderId: "696081411093",
+  appId: "1:696081411093:web:99ab1a9ca3c8f982b1721c",
+  measurementId: "G-TQFBNCWPWN"
 };
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-//  firebase.analytics();
 
-const database = firebase.firestore()
-//
-
-// console.log(database)
+const database = firebase.initializeApp(firebaseConfig);
 
 export default database;
