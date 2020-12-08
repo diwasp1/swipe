@@ -16,15 +16,15 @@ function Button() {
       <IconButton className="close_btn">
         <CloseIcon fontSize="large" />
       </IconButton>
-      <IconButton className="star_btn">
+      {/* <IconButton className="star_btn">
         <StarRateIcon fontSize="large" />
-      </IconButton>
+      </IconButton> */}
       <IconButton className="fav_btn">
         <FavoriteIcon fontSize="large" />
       </IconButton>
-      <IconButton className="flash_btn">
+      {/* <IconButton className="flash_btn">
         <FlashOnIcon fontSize="large" />
-      </IconButton>
+      </IconButton> */}
     </div>
   );
 }
